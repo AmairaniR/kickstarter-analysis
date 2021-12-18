@@ -10,15 +10,15 @@ This Excel Workbook analyses the theatre outcomes by launch date and the outcome
 
 ### Analysis of Outcomes Based on Launch Date
 
-For my first analysis, I first had to create new column in the “Kickstarter” worksheet titled, Years, in order to extract the year from the Date Created Conversion column. I could then perform my analysis of the sheet titled “Theatre Outcomes by Launch Date” by creating a pivot table from the dataset on the “Kickstarter” sheet. I then filtered it by ‘Parent Category’ and ‘Year’, I entered the ‘Date Created Conversion’ for the rows and removed the added ‘Years’ and ‘Quarter’ categories, and finally I moved ‘Outcomes’ into the values and columns fields to finish creating the pivot table. From there I created a line chart from the pivot table to make a visual representation of the relationship between launch dates and outcomes. 
+For my first analysis, I first had to create a new column in the “Kickstarter” worksheet titled, "Years", in order to extract the year from the "Date Created Conversion" column. I could then perform my analysis of the sheet titled “Theatre Outcomes by Launch Date” by creating a pivot table from the dataset on the “Kickstarter” sheet. I then filtered it by ‘Parent Category’ and ‘Year’, I entered the ‘Date Created Conversion’ for the rows and removed the added ‘Years’ and ‘Quarter’ categories, and finally I moved ‘Outcomes’ into the values and columns fields to finish creating the pivot table. From there I created a line chart from the pivot table to make a visual representation of the relationship between launch dates and outcomes. 
 
-[Image - Theatre Outcomes vs Launch Dates](Resources/Theater_Outcomes_vs_Launch.png.png)
+[Chart - Theatre Outcomes vs Launch Dates](Resources/Theater_Outcomes_vs_Launch.png.png)
 
 ### Analysis of Outcomes Based on Goals
 
 For the second analysis, I analyzed the outcomes of the Kickstarter campaigns based on the goals. I reduced the goals to specific ranges and created individual columns for successful, failed, and canceled campaigns. I then used a =COUNTIFS formula to filter and count for the number of plays within the goal range and for the specific outcome I was looking for. I then totaled the projects for each goal range and calculated the percentage for each outcome. With this new dataset I created a line chart of the percentages for each outcome. 
 
-[Image - Outcomes Based on Goals](Resources/Outcomes_vs_Goals.png.png)
+[Chart - Outcomes Based on Goals](Resources/Outcomes_vs_Goals.png.png)
 
 ### Challenges and Difficulties Encountered
 
@@ -37,7 +37,7 @@ While performing this analysis I did not encounter many challenges. However, pop
 
 - What are some limitations of this dataset?
 
-Some limitations for this dataset is that there is no information for the total duration of the campaign. It would also be more informative if there was a timeline for when exactly the goal was met for successful campaigns. 
+Some limitations for this dataset is that there is no information for the total duration of the campaign. It would also be more informative if there was a timeline for when exactly the goal was met for successful campaigns in order to see how long it takes to meet the goal and how much extra money can be raised between the time the goal is met until the deadline. 
 
 - What are some other possible tables and/or graphs that we could create?
 
