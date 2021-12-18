@@ -1,6 +1,6 @@
 # Kickstarting with Excel
 
-## Overview of the Project 
+## Overview of the Project - [Kickstarter Challenge Excel File](https://github.com/AmairaniR/kickstarter-analysis/blob/main/kickstarter_challenge.xlsx)
 
 ### Purpose
 
@@ -12,13 +12,13 @@ This Excel Workbook analyses the theatre outcomes by launch date and the outcome
 
 For my first analysis, I first had to create new column in the “Kickstarter” worksheet titled, Years, in order to extract the year from the Date Created Conversion column. I could then perform my analysis of the sheet titled “Theatre Outcomes by Launch Date” by creating a pivot table from the dataset on the “Kickstarter” sheet. I then filtered it by ‘Parent Category’ and ‘Year’, I entered the ‘Date Created Conversion’ for the rows and removed the added ‘Years’ and ‘Quarter’ categories, and finally I moved ‘Outcomes’ into the values and columns fields to finish creating the pivot table. From there I created a line chart from the pivot table to make a visual representation of the relationship between launch dates and outcomes. 
 
-[Theatre Outcomes vs Launch Dates](Resources/Theater_Outcomes_vs_Launch.png.png)
+[Image - Theatre Outcomes vs Launch Dates](Resources/Theater_Outcomes_vs_Launch.png.png)
 
 ### Analysis of Outcomes Based on Goals
 
 For the second analysis, I analyzed the outcomes of the Kickstarter campaigns based on the goals. I reduced the goals to specific ranges and created individual columns for successful, failed, and canceled campaigns. I then used a =COUNTIFS formula to filter and count for the number of plays within the goal range and for the specific outcome I was looking for. I then totaled the projects for each goal range and calculated the percentage for each outcome. With this new dataset I created a line chart of the percentages for each outcome. 
 
-[Outcomes Based on Goals](Resources/Outcomes_vs_Goals.png.png)
+[Image - Outcomes Based on Goals](Resources/Outcomes_vs_Goals.png.png)
 
 ### Challenges and Difficulties Encountered
 
